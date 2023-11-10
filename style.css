@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+html{
+    display: grid;
+    background-color: #36393e;
+}
+h1{
+    text-align: center;
+    color: #FBFCFC;
+   
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn1, .btn2, .btn3, .btn4, .btn5, .btn6, .btn7, .btn8, .btn9, .btn10{
+    font-family: 'Poppins', sans-serif;
+    padding: 2%;
+    margin: 1%;
+}
+
+
+
+/*  btn1    */
+.btn1{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: transparent;
+    background: none;
+    color: #fff;
+    transition: 0.3s;
+}
+.btn1:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #fff;
+    background: none;
+    color: #fff;
+    transition: 0.4s;
+}
+
+
+/*  btn2    */
+.btn2{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: transparent;
+    background: none;
+    color: #fff;
+    transition: 0.4s;
+}
+.btn2:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #fff;
+    background: none;
+    color: #fff;
+    transition: 0.5s;
+}
+
+
+/*  btn3    */
+.btn3{
+    text-decoration: none; 
+    color: #fff;
+    transition: 0.4s;
+}
+.btn3:hover{
+    text-decoration: none; 
+    color: #B6B6B6;
+    transition: 0.4s;
+}
+
+
+/*  btn4    */
+.btn4::before{
+    content: '';
+    background-color: hsla(196, 61%, 58%, .75);
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    width: 100%;
+    height: 8px;
+    z-index: -1;
+    transition: all .3s ease-in-out;
+
+}
+.btn4:hover::before {
+    bottom: 0;
+    height: 100%;
+  }
